@@ -1,0 +1,18 @@
+#Write a simple Python program that calculates Voltage (V) using Ohm’s Law.
+#Solution:
+
+#Ohm's Law Formula:
+#V = I * R
+#Where:
+#V is Voltage (in volts)
+#I is Current (in amperes)
+#R is Resistance (in ohms)
+
+print("This is a simple Python program that calculates Voltage (V) using Ohm’s Law:")
+I = float(input("Enter the value for Current 'in A': "))
+R = float(input("Enter the value for Resistance 'in ohms': "))
+V = I * R
+print("The Voltage is: " + str(V) +"volts")
+
+#Written by SALAMI, Olanrewaju Ismail.
+
